@@ -1,5 +1,5 @@
 # panix - **P**alo **A**lto **N**etwork **I**nterface e**X**ecutor
-A flask framework for automatinf Palo Alto firewalls
+A flask framework for automating Palo Alto firewalls
 
 ## Setup
 You will need a fresh install of Ubuntu Mate **Desktop** not server.
@@ -14,13 +14,13 @@ For each firewall you will need a CSV file like this:
 
 ![CSV File](/static/assets/spreadsheet.png)
 
-A = Management IP of the PA firewall
-B = Network assigned to subinterface
-C = Not used...don't ask :-)
-D = full subnet mask with slash and bits
-E = Vlan TAG
-F = Comment
-G = Zone
+- A = Management IP of the PA firewall
+- B = Network assigned to subinterface
+- C = Not used...don't ask :-)
+- D = full subnet mask with slash and bits
+- E = Vlan TAG
+- F = Comment
+- G = Zone
 
 
 ## Get the app:
