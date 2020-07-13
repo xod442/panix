@@ -57,7 +57,7 @@ main_app = Blueprint('main_app', __name__)
 def return_to():
     for i in Creds.objects:
         fwip=i.fwip
-        banner = 'Working on Firewall %s' % (fwip)
+        banner = 'You authenticated using %s credentials' % (fwip)
 
     return render_template('main/mainx.html', banner=banner)
 
@@ -91,7 +91,7 @@ def mainx():
 
     # First, let's create the firewall object that we want to modify.
     fw = firewall.Firewall(fwip, username, password)
-    banner = 'Working on Firewall %s' % (fwip)
+    banner = 'You authenticated using %s credentials' % (fwip)
 
     return render_template('main/mainx.html', banner=banner)
 

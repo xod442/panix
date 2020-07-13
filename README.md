@@ -27,7 +27,7 @@ For each firewall you will need a CSV file like this:
 ```
 git clone://https.github.com/xod442/panix.github
 cd panix
-pip install requirement -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Launch the app:(from the panix folder)
