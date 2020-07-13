@@ -13,7 +13,7 @@ sudo apt-get install -y python-pip
 This will get the DB and the mongo clients loaded. PIP will be used to install the rest of the requirements.
 For each firewall you will need a CSV file like this:
 
-![CSV File](/static/assests/spreadsheet.png)
+![CSV File](/static/assets/spreadsheet.png)
 
 ## Get the app:
 '''
