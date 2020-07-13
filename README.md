@@ -35,11 +35,10 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 Point your web broswer to localhost:5001. You will see the login screen. You will need
-the credentials to an **active** firewall.
+the credentials to an **active** firewall. These credentials are stored in a mongo db and
+dropped automatically when you log out of the application. 
 
 Upon successful login, it is highly recommended to look at the help section.
 
 **Note:**
 This application uses a mongo database.
-**Note:**
-On
